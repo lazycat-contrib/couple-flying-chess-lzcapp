@@ -1,0 +1,12 @@
+application:
+  subdomain: couple-flying-chess
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://couple-flying-chess:3000/
+services:
+  couple-flying-chess:
+    # upstream: czyt/couple-flying-chess:latest
+    image: czyt/couple-flying-chess:latest

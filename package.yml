@@ -1,0 +1,14 @@
+package: cloud.lazycat.app.couple-flying-chess
+version: 0.1.0
+name: 情侣飞行棋
+description: "情侣飞行棋"
+min_os_version: "1.5.0"
+homepage: https://github.com/woniu9524/couple-flying-chess
+author: woniu9524
+locales:
+  zh:
+    description: "情侣飞行棋"
+    name: 情侣飞行棋
+  en:
+    description: "Couple Flying Chess"
+    name: Couple Flying Chess
