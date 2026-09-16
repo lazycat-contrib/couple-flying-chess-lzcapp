@@ -8,5 +8,5 @@ application:
       backend: http://couple-flying-chess:3000/
 services:
   couple-flying-chess:
-    # upstream: czyt/couple-flying-chess:latest
-    image: czyt/couple-flying-chess:latest
+    # upstream: czyt/couple-flying-chess:latest@sha256:7cc563bdc27ac339640a046b847036fe5f73f9600c14906bf68302c509ead4f5
+    image: registry.lazycat.cloud/czyt/czyt/couple-flying-chess:c8c1a8bbed07a784
